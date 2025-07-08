@@ -19,7 +19,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in">
             <img 
-              src="/attached_assets/WhatsApp%20Image%202025-07-08%20at%2021.51.06_64d37708_1751994490716.jpg" 
+              src="/attached_assets/WhatsApp Image 2025-07-08 at 21.51.06_64d37708_1751994490716.jpg" 
               alt="Ahsan Saleemi - Computer Science Student & Developer" 
               className="rounded-2xl shadow-xl w-full max-w-md mx-auto object-cover h-96"
             />
