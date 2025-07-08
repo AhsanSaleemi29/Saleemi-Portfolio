@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Mr. Rana Iftikhar",
     role: "Business Support & Development, ACE ESTIMATOR",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=60&h=60",
+    image: "/attached_assets/WhatsApp Image 2025-07-08 at 22.51.37_3d813246_1751997125921.jpg",
     feedback: "Ahsan showed exceptional dedication and technical skills during our collaboration. His ability to adapt quickly and deliver quality work made him an invaluable team member."
   },
   {

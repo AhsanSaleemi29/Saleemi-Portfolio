@@ -22,6 +22,7 @@ export default function About() {
               src="/attached_assets/WhatsApp Image 2025-07-08 at 21.51.06_64d37708_1751994490716.jpg" 
               alt="Ahsan Saleemi - Computer Science Student & Developer" 
               className="rounded-2xl shadow-xl w-full max-w-md mx-auto object-cover h-96"
+              style={{ objectPosition: 'center top' }}
             />
           </div>
           
