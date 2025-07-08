@@ -1,0 +1,104 @@
+Create a responsive web portfolio using HTML, CSS, JavaScript (vanilla) and Tailwind CSS for styling. Optionally, use Node.js for backend functionality (like sending messages via contact form).
+
+The portfolio should include the following sections and functionality:
+
+
+---
+
+📄 1. Hero Section / Introduction
+
+A bold header with the developer's name and title ("Web Developer" or similar).
+
+A short introductory tagline.
+
+A "Download CV" button that allows users to download a static PDF (e.g., cv.pdf).
+
+
+🧑‍💼 2. About Me Section
+
+Short paragraph(s) about the developer.
+
+A profile image (optional).
+
+Include a few highlighted soft and technical skills (could be shown as icons or bullet points).
+
+
+💼 3. Skills Section
+
+Showcase skills using icons or progress bars (HTML, CSS, JavaScript, Tailwind, Node.js, etc.).
+
+
+🧰 4. Projects Section
+
+Display 3–4 recent projects.
+
+Each project should have a title, screenshot, short description, and live/demo link + GitHub link.
+
+
+🗣 5. Testimonials Section
+
+Include 2–3 testimonials from clients or peers.
+
+Each testimonial should have the name, avatar (optional), and short feedback.
+
+
+📞 6. Contact Section
+
+A "Get In Touch" form with fields: Name, Email, Message.
+
+On submitting, a popup message (JavaScript alert or custom modal) should confirm:
+“Your message has been sent successfully!”
+
+You may use Node.js backend with Nodemailer or a simple placeholder action.
+
+Multiple "Contact Me" buttons should be scattered across the site, especially in the Hero and Footer.
+
+
+📫 7. Contact Info Section
+
+Display phone number, email, and optionally a location or LinkedIn/GitHub links.
+
+
+🔝 8. Sticky Navigation Bar
+
+Links to all sections: About, Skills, Projects, Testimonials, Contact.
+
+Smooth scroll behavior on link click.
+
+
+⚙ 9. General Requirements
+
+Must be responsive (works well on mobile/tablet).
+
+Tailwind CSS should be used for all layout/styling.
+
+Use vanilla JavaScript (no React).
+
+Add subtle hover effects, smooth scrolling, and animation where appropriate.
+
+Code should be structured and well-commented.
+
+
+Optional:
+
+Host CV and images in a public or assets folder.
+
+Basic form validation (e.g., all fields are required).
+
+Dark mode toggle (if not too complex).
+
+
+
+---
+
+Output everything in a single downloadable folder structure with:
+
+/index.html
+
+/styles/ for Tailwind or custom CSS
+
+/scripts/ for JavaScript
+
+/assets/ for images and CV
+
+/server/ (optional Node.js backend files)
