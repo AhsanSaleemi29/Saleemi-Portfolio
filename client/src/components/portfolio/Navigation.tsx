@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useScrollSpy } from "@/hooks/use-scroll-spy";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const navigationItems = [
   { href: "#about", label: "About" },
@@ -45,8 +46,14 @@ export default function Navigation() {
             ))}
           </div>
 
+          {/* Theme Toggle - Desktop */}
+          <div className="hidden md:flex items-center">
+            <ThemeToggle />
+          </div>
+
           {/* Mobile Menu */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center space-x-2">
+            <ThemeToggle />
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">

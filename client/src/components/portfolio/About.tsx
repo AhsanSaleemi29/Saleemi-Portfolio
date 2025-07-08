@@ -9,10 +9,10 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">About Me</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
         
@@ -27,11 +27,11 @@ export default function About() {
           </div>
           
           <div className="fade-in">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Passionate Computer Science Student & Developer</h3>
-            <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Passionate Computer Science Student & Developer</h3>
+            <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
               As a dedicated Computer Science student at Lahore Garrison University, I'm passionate about enhancing my coding skills and engaging deeply in software development, artificial intelligence, and emerging technologies. I actively explore programming innovations and cutting-edge tools.
             </p>
-            <p className="text-gray-600 mb-8 text-lg leading-relaxed">
+            <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed">
               When I'm not coding, you can find me gaming, playing cricket, working out at the gym, or exploring new technologies to stay ahead in the ever-evolving tech world.
             </p>
             
@@ -39,7 +39,7 @@ export default function About() {
               {highlights.map((highlight, index) => (
                 <div key={index} className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
-                  <span className="text-gray-700">{highlight}</span>
+                  <span className="text-gray-700 dark:text-gray-300">{highlight}</span>
                 </div>
               ))}
             </div>

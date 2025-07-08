@@ -112,6 +112,12 @@ Changelog:
   - Updated testimonials with references from Ahsan's CV
   - Changed location from San Francisco to Lahore, Pakistan
   - Updated email and phone number to Ahsan's details
+- July 08, 2025. Implemented dark mode functionality with:
+  - Added ThemeProvider with localStorage persistence
+  - Created theme toggle button with smooth transitions
+  - Updated all components with dark mode styling
+  - Positioned toggle in both desktop and mobile navigation
+  - Added dark variants for all colors and backgrounds
 ```
 
 ## User Preferences
