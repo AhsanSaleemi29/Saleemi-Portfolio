@@ -25,10 +25,10 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 border-b border-gray-100">
+    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 border-b border-gray-100 dark:bg-gray-900/90 dark:border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="font-bold text-xl text-gray-900">Alex Johnson</div>
+          <div className="font-bold text-xl text-gray-900 dark:text-white">Alex Johnson</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
@@ -36,7 +36,7 @@ export default function Navigation() {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className={`nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors ${
+                className={`nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors dark:text-gray-200 dark:hover:text-blue-400 ${
                   activeSection === item.href.slice(1) ? 'active' : ''
                 }`}
               >

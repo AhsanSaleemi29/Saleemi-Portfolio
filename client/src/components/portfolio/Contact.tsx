@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { useToast } from "@/hooks/use-toast";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
@@ -219,11 +219,11 @@ export default function Contact() {
               </div>
               Message Sent!
             </DialogTitle>
+            <DialogDescription className="text-center">
+              Your message has been sent successfully. I'll get back to you soon!
+            </DialogDescription>
           </DialogHeader>
           <div className="text-center">
-            <p className="text-gray-600 mb-6">
-              Your message has been sent successfully. I'll get back to you soon!
-            </p>
             <Button onClick={() => setShowSuccessModal(false)} className="w-full">
               Close
             </Button>

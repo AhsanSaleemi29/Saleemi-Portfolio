@@ -15,15 +15,19 @@ endobj
 << /Length 200 >>
 stream
 BT
+/F1 24 Tf
+100 700 Td
+(Alex Johnson) Tj
+0 -50 Td
+/F1 16 Tf
+(Full-Stack Web Developer) Tj
+0 -30 Td
 /F1 12 Tf
-50 750 Td
-(Alex Johnson - Web Developer) Tj
+(Email: alex.johnson@email.com) Tj
 0 -20 Td
-(Professional Resume) Tj
-0 -40 Td
-(This is a placeholder CV file for the portfolio download feature.) Tj
+(Phone: +1 (555) 123-4567) Tj
 0 -20 Td
-(In a real application, this would contain the actual resume content.) Tj
+(Location: San Francisco, CA) Tj
 ET
 endstream
 endobj
@@ -33,10 +37,10 @@ xref
 0000000009 00000 n 
 0000000058 00000 n 
 0000000115 00000 n 
-0000000254 00000 n 
-0000000324 00000 n 
+0000000251 00000 n 
+0000000319 00000 n 
 trailer
 << /Size 6 /Root 1 0 R >>
 startxref
-576
+570
 %%EOF
