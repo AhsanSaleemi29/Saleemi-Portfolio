@@ -91,10 +91,10 @@ export default function Contact() {
         
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white rounded-xl shadow-lg p-8 fade-in">
+                   <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 fade-in">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <Label htmlFor="name">Name *</Label>
+                <Label htmlFor="name" className="text-gray-900 dark:text-gray-100">Name *</Label>
                 <Input
                   id="name"
                   type="text"
@@ -108,7 +108,7 @@ export default function Contact() {
               </div>
               
               <div>
-                <Label htmlFor="email">Email *</Label>
+                <Label htmlFor="email" className="text-white dark:text-gray-100">Email *</Label>
                 <Input
                   id="email"
                   type="email"
@@ -122,7 +122,7 @@ export default function Contact() {
               </div>
               
               <div>
-                <Label htmlFor="message">Message *</Label>
+                <Label htmlFor="message" className="text-gray-900 dark:text-gray-100">Message *</Label>
                 <Textarea
                   id="message"
                   rows={5}
@@ -184,25 +184,16 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
                 <Button variant="outline" size="icon" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/AhsanSaleemi29" target="_blank" rel="noopener noreferrer">
                     <Github className="h-5 w-5" />
                   </a>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/hafiz-ahsan-saleemi-711047342 " target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-5 w-5" />
                   </a>
                 </Button>
-                <Button variant="outline" size="icon" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Twitter className="h-5 w-5" />
-                  </a>
-                </Button>
-                <Button variant="outline" size="icon" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Globe className="h-5 w-5" />
-                  </a>
-                </Button>
+               
               </div>
             </div>
           </div>
