@@ -16,9 +16,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Alex Johnson</h3>
+            <h3 className="text-xl font-bold mb-4">Ahsan Saleemi</h3>
             <p className="text-gray-300 mb-4">
-              Full-Stack Web Developer passionate about creating amazing digital experiences.
+              Computer Science Student & Web Developer passionate about creating amazing digital experiences.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="text-gray-400 hover:text-white" asChild>
@@ -79,8 +79,8 @@ export default function Footer() {
           
           <div>
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
-            <p className="text-gray-300 mb-2">alex.johnson@email.com</p>
-            <p className="text-gray-300 mb-4">+1 (555) 123-4567</p>
+            <p className="text-gray-300 mb-2">ahsansaleemi4415983@gmail.com</p>
+            <p className="text-gray-300 mb-4">+92-325-945-4826</p>
             <Button 
               onClick={scrollToContact}
               className="bg-blue-600 hover:bg-blue-700"
@@ -92,7 +92,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">&copy; 2024 Alex Johnson. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2025 Ahsan Saleemi. All rights reserved.</p>
         </div>
       </div>
     </footer>

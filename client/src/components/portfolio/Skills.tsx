@@ -4,36 +4,36 @@ import { useEffect, useState } from "react";
 
 const skillCategories = [
   {
-    title: "Frontend",
+    title: "Programming",
     icon: Code,
-    color: "text-blue-600",
+    color: "text-purple-600",
     skills: [
-      { name: "HTML/CSS", level: 95 },
-      { name: "JavaScript", level: 90 },
-      { name: "React", level: 85 },
-      { name: "Tailwind CSS", level: 92 }
+      { name: "HTML/CSS", level: 85 },
+      { name: "C++", level: 80 },
+      { name: "Assembly", level: 70 },
+      { name: "WordPress", level: 75 }
     ]
   },
   {
-    title: "Backend", 
+    title: "Databases", 
     icon: Server,
     color: "text-green-600",
     skills: [
-      { name: "Node.js", level: 88 },
-      { name: "Python", level: 82 },
-      { name: "MongoDB", level: 80 },
-      { name: "Express.js", level: 85 }
+      { name: "MySQL", level: 82 },
+      { name: "SQL Server", level: 78 },
+      { name: "XAMPP", level: 80 },
+      { name: "Database Design", level: 75 }
     ]
   },
   {
-    title: "Tools & Others",
+    title: "Tools & Skills",
     icon: Settings,
-    color: "text-purple-600", 
+    color: "text-blue-600", 
     skills: [
-      { name: "Git/GitHub", level: 93 },
-      { name: "Docker", level: 75 },
-      { name: "AWS", level: 78 },
-      { name: "Figma", level: 87 }
+      { name: "VS Code", level: 90 },
+      { name: "Microsoft Office", level: 85 },
+      { name: "Email Marketing", level: 75 },
+      { name: "Lead Generation", level: 70 }
     ]
   }
 ];

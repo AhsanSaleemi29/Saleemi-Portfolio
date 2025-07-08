@@ -101,7 +101,17 @@ The application is configured for production deployment with:
 
 ```
 Changelog:
-- July 08, 2025. Initial setup
+- July 08, 2025. Initial setup with Alex Johnson portfolio
+- July 08, 2025. Updated portfolio for Ahsan Saleemi with:
+  - Changed name from Alex Johnson to Ahsan Saleemi
+  - Added pink-purple gradient background for hero section
+  - Updated profile image to Ahsan's photo
+  - Added Ahsan's actual CV and contact information
+  - Updated skills to match Ahsan's technical expertise
+  - Modified projects to reflect Ahsan's actual work
+  - Updated testimonials with references from Ahsan's CV
+  - Changed location from San Francisco to Lahore, Pakistan
+  - Updated email and phone number to Ahsan's details
 ```
 
 ## User Preferences

@@ -11,16 +11,16 @@ import Footer from "@/components/portfolio/Footer";
 export default function Portfolio() {
   useEffect(() => {
     // Set page title
-    document.title = "Alex Johnson - Web Developer Portfolio";
+    document.title = "Ahsan Saleemi - Computer Science Student & Web Developer";
     
     // Add meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional web developer portfolio showcasing modern web applications, responsive design, and full-stack development expertise.');
+      metaDescription.setAttribute('content', 'Computer Science student and web developer portfolio showcasing programming projects, technical skills, and academic achievements.');
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'Professional web developer portfolio showcasing modern web applications, responsive design, and full-stack development expertise.';
+      meta.content = 'Computer Science student and web developer portfolio showcasing programming projects, technical skills, and academic achievements.';
       document.head.appendChild(meta);
     }
   }, []);

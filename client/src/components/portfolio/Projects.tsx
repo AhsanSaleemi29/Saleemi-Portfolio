@@ -4,34 +4,34 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    title: "E-Commerce Dashboard",
-    description: "A comprehensive admin dashboard for managing online store operations with real-time analytics and inventory management.",
+    title: "M-Mart E-Commerce System",
+    description: "Developed a comprehensive e-commerce platform for online shopping with modern user interface and secure payment integration.",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
-    technologies: ["React", "Node.js", "MongoDB"],
+    technologies: ["HTML/CSS", "JavaScript", "Database"],
     liveDemo: "#",
     github: "#"
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, team collaboration features, and progress tracking.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
-    technologies: ["Vue.js", "Firebase", "Tailwind"],
+    title: "Green Virtual World",
+    description: "Created an immersive virtual world simulation utilizing Object-Oriented Programming concepts in C++ for enhanced user interaction.",
+    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+    technologies: ["C++", "OOP", "Simulation"],
     liveDemo: "#",
     github: "#"
   },
   {
-    title: "Weather Forecast App",
-    description: "A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
-    technologies: ["JavaScript", "API Integration", "Charts.js"],
+    title: "Airport Management System",
+    description: "Designed a comprehensive airport management system using SQL Server for efficient flight scheduling and passenger management.",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+    technologies: ["SQL Server", "Database Design", "Management"],
     liveDemo: "#",
     github: "#"
   },
   {
-    title: "Restaurant Website",
-    description: "A modern restaurant website with online reservations, menu display, and integrated payment system for food ordering.",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
-    technologies: ["HTML/CSS", "PHP", "MySQL"],
+    title: "Interactive Games Collection",
+    description: "Developed various interactive games including Rock Paper Scissors using Assembly language and digital stopwatch using logic gates.",
+    image: "https://images.unsplash.com/photo-1511512578047-dfb367c3c10b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+    technologies: ["Assembly", "Logic Gates", "Game Development"],
     liveDemo: "#",
     github: "#"
   }

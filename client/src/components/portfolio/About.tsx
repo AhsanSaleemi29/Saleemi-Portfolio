@@ -3,9 +3,9 @@ import { CheckCircle } from "lucide-react";
 export default function About() {
   const highlights = [
     "Problem Solving",
-    "Team Leadership", 
-    "Creative Design",
-    "Fast Learner"
+    "Fast Learner", 
+    "Team Leadership",
+    "Adaptability"
   ];
 
   return (
@@ -19,19 +19,19 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400" 
-              alt="Alex Johnson - Professional Developer" 
+              src="/attached_assets/WhatsApp%20Image%202025-07-08%20at%2021.51.06_64d37708_1751994490716.jpg" 
+              alt="Ahsan Saleemi - Computer Science Student & Developer" 
               className="rounded-2xl shadow-xl w-full max-w-md mx-auto object-cover h-96"
             />
           </div>
           
           <div className="fade-in">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Passionate Developer & Problem Solver</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Passionate Computer Science Student & Developer</h3>
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-              With over 5 years of experience in web development, I specialize in creating modern, responsive, and user-friendly applications. I'm passionate about clean code, innovative solutions, and staying up-to-date with the latest technologies.
+              As a dedicated Computer Science student at Lahore Garrison University, I'm passionate about enhancing my coding skills and engaging deeply in software development, artificial intelligence, and emerging technologies. I actively explore programming innovations and cutting-edge tools.
             </p>
             <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+              When I'm not coding, you can find me gaming, playing cricket, working out at the gym, or exploring new technologies to stay ahead in the ever-evolving tech world.
             </p>
             
             <div className="grid grid-cols-2 gap-4">

@@ -14,10 +14,10 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center py-20">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in">
-            Alex Johnson
+            Ahsan Saleemi
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-blue-100 fade-in">
-            Full-Stack Web Developer
+            Computer Science Student & Web Developer
           </p>
           <p className="text-lg mb-8 text-blue-100 max-w-2xl mx-auto fade-in">
             Creating beautiful, functional, and user-friendly digital experiences with modern web technologies.
@@ -32,10 +32,10 @@ export default function Hero() {
             </Button>
             <Button 
               variant="outline"
-              className="bg-blue-600/20 text-white hover:bg-blue-600/30 border-blue-400 px-8 py-3 font-semibold"
+              className="bg-purple-600/20 text-white hover:bg-purple-600/30 border-purple-400 px-8 py-3 font-semibold"
               asChild
             >
-              <a href="/assets/alex-johnson-cv.pdf" download>
+              <a href="/assets/ahsan-saleemi-cv.pdf" download>
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </a>
